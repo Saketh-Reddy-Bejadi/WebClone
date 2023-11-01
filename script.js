@@ -613,26 +613,32 @@ canvas2();
 
 
 
-gsap.to("#circlepg7",{
-  scrollTrigger:{
-    trigger:`#circlepg7`,
-    start:`top center`,
-    end:`bottom top`,
-    scroller:`#main`,
-    scrub:.5,
-  },
-  scale:1.5,
-})
+function circle(){
+  gsap.to("#circlepg7",{
+    scrollTrigger:{
+      trigger:`#circlepg7`,
+      start:`top center`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+    },
+    scale:1.5,
+  })
+  
+  
+  
+  gsap.to("#circleInnerpg7",{
+    scrollTrigger:{
+      trigger:`#circleInnerpg7`,
+      start:`top center`,
+      end:`bottom top`,
+      scroller:`#main`,
+      scrub:.5,
+    },
+    backgroundColor:`#0a3bce91`,
+  })
+}
+circle();
 
 
 
-gsap.to("#circleInnerpg7",{
-  scrollTrigger:{
-    trigger:`#circleInnerpg7`,
-    start:`top center`,
-    end:`bottom top`,
-    scroller:`#main`,
-    scrub:.5,
-  },
-  backgroundColor:`#0a3bce91`,
-})
