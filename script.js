@@ -642,7 +642,7 @@ circle();
 
 
 function canvas3(){
-  const canvas = document.querySelector("#page10>canvas");
+  const canvas = document.querySelector("#page10 canvas");
 const context = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;
