@@ -135,6 +135,7 @@ nav{
     width: 100vw;
     height: 100vh;
     position: relative;
+    /* margin-top:-190px; */
 }
 #page3>canvas{
     max-width: 100vw;
@@ -260,8 +261,21 @@ nav{
 .pg9_2>div{
     padding-top: 60px;
 }
-/* #page10{
+#page10{
     width: 100vw;
     height: 100vh;
     background-color: #0a3cce;
-} */
+    position: relative;
+    padding: 0px 150px;
+}
+#page10>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
+#page10>p{
+    color: wheat;
+    font-family: a;
+    font-size: 80px;
+    font-weight: 100;
+}
