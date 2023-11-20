@@ -241,6 +241,7 @@ nav{
     justify-content: center;
     column-gap: 6%;
     font-family: a;
+    background-image:linear-gradient(to bottom, #0A3CCE, #03268E )
 }
 #page9>p{
     font-family: a;
@@ -264,18 +265,12 @@ nav{
 #page10{
     width: 100vw;
     height: 200vh;
-    background-color: #0a3cce;
+    background-color: #03268E;
     position: relative;
     padding: 0px 150px;
 }
-#page10 canvas{
-    width:563px;
-    max-height:auto;
-    overflow: auto;
-
-}
 #page10>p{
-    color: wheat;
+    color: white;
     font-family: a;
     font-size: 80px;
     font-weight: 100;
@@ -300,4 +295,8 @@ nav{
     display: flex;
     align-items:start;
     justify-content: center;
+}
+#page10 canvas{
+    width: 563px;
+    height: 563px;
 }
